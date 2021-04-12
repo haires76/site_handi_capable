@@ -1,0 +1,129 @@
+:root {
+    --couleur_verte:#5B832F;
+}
+* {
+    overflow: visible;
+    box-sizing: border-box;
+}
+body {
+    height: 1000px;
+    min-width: 900px;
+}
+iframe.infos {
+    border: none;
+}
+iframe.haut_de_page {
+    width: 100%;
+    height: 320px;
+    border: none;
+}
+iframe.description {
+    width: 100%;
+    border: none;
+}
+h1 {
+    text-shadow: 5px 5px 5px lightgray;
+    color: var(--couleur_verte);
+    font-size: 36px;
+    text-align: center;
+    border-left: solid var(--couleur_verte);
+    padding-left: 10px;
+}
+p {
+    color: var(--couleur_verte);
+    font-size: 20px;
+}
+div.haut_de_page {
+    min-width: 770px;
+}
+img.logo {
+    margin-left: 30px;
+    width: 300px;
+    height: auto;
+    box-shadow: 0px 0px 8px lightgray;
+}
+div.logo {
+    display: inline-block;
+}
+div.titre_haut {
+    position: relative;
+    top: -200px;
+    left: 50%;
+    margin-left: -430px;
+    display: inline-block;
+}
+div.boutons {
+    min-width: 800px;
+    position: absolute;
+    top: 135px;
+    margin-left: 15px;
+    left: 330px;
+    right: 0;
+    display: inline-block;
+}
+div.boutons p {
+    border-radius: 3%;
+    text-align: center;
+    background-color: var(--couleur_verte);
+    height: 130px;
+    font-size: 36px;
+    width: auto;
+    box-shadow: 0px 0px 8px lightgray;
+}
+div.boutons a {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+div.acceuil,div.bureau, div.actions, div.contacter{
+    min-width: none;
+    display: inline-block;
+    margin-right: 30px;
+    width: 20%;
+}
+
+div.partie_basse {
+    display: flex;
+    height: 100%;
+}
+div.infos {
+    height: 100%;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: var(--couleur_verte);
+    display: inline-block;
+    width: auto;
+    border-radius: 3%;
+    box-shadow: 0px 0px 8px lightgray;
+}
+div.infos p,a{
+    box-sizing: border-box;
+    width: max-content;
+    font-size: 16px;
+    color: white;
+}
+div.description_presentation_float {
+    margin-left: 20px;
+    text-align: left;
+    float: right;
+}
+div.description {
+    min-width: none;
+}
+div.description p {
+    text-align: center;
+    text-shadow: 5px 5px 5px lightgray;
+    border-left: solid var(--couleur_verte);
+}
+div.presentation {
+    min-width: none;
+}
+/*@media only screen and (max-width: 768px) {
+    div.description {
+        margin-left: 320px;
+    }
+    
+}*/

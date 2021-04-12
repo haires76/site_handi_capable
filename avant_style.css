@@ -1,0 +1,117 @@
+* {
+    overflow: auto;
+}
+body {
+    font-family: 'Arial';
+    min-width: 1300px;
+    border-style: solid;
+    border-radius: 1%;
+    border-color: white;
+    border-width: 3px;
+}
+h1 {
+    text-shadow: 5px 5px 5px lightgray;
+    color: #5B832F;
+    font-size: 36px;
+    text-align: center;
+}
+p {
+    color: #678B15;
+    font-size: 24px;
+}
+div.logo {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+img.logo {
+    width: 300px;
+    height: auto;
+}
+div.titre_haut {
+    position: relative;
+    top: -160px;
+    left: 50%;
+    margin-left: -430px;
+    display: inline-block;
+}
+div.boutons {
+    margin-right: 15px;
+    min-width: 700px;
+    right: 0;
+    margin-left:270px;
+    position: absolute;
+    top: 150px;
+    left: 10px;
+    display: inline-block;
+}
+div.boutons p{
+    text-align: center;
+    font-size: 36px;
+    height: 130px;
+    border-style: solid ;
+    border-width: 5px;
+    background-color: #5B832F;
+}
+div.boutons a{
+    color: white;
+}
+div.acceuil {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: inline-block;
+    width: 22%;
+}
+div.bureau {
+    margin-right: 50px;
+    display: inline-block;
+    width: 22%;
+}
+div.actions {
+    margin-right: 50px;
+    display: inline-block;
+    width: 22%;
+}
+div.contacter {
+    display: inline-block;
+    width: 22%;
+}
+div.infos {
+    border-radius: 50%;
+    background-color: #5B832F;
+    padding-left: 15px;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: 500px;
+    width: 320px;
+    border-style: solid;
+    border-radius: 1%;
+    border-color: white;
+    border-width: 3px;
+}
+div.infos p{
+    color: white;
+}
+div.infos a{
+    color: white;
+}
+div.description {
+    text-shadow: 5px 5px 5px lightgray;
+    position: relative;
+    top: -400px;
+    left: 25%;
+    text-align: center;
+    display: inline-block;
+}
+div.presentation {
+    padding-left: 50px;
+    max-width: 75%;
+    right: 0;
+    overflow-wrap: hyphenate-word;
+    position: relative;
+    top: -380px;
+    left: 350px;
+    display: inline-block;
+}
